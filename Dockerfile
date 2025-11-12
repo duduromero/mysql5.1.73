@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:25.10
 
 RUN groupadd -r mysql && useradd -r -g mysql mysql
 
